@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  height: 90px;
+  background: linear-gradient(90deg, #2b195f 0%, #4a3a91 50%, #d6d9e9 100%);
+  color: #fff;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.appname {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: #2b195f;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 500;
+}
+
+.icon {
+  stroke-width: 2;
+  color: #2b195f;
+  cursor: pointer;
+}
