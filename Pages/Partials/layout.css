@@ -1,8 +1,15 @@
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e9eef7;
+  color: #26264d;
+}
 .sidebar {
   position:absolute;          
   top: 0;
   left: 0;
-  width: 20px;              
+  width: 40px;              
   height: 100vh;   
   background-color: #2b195f         
 }
