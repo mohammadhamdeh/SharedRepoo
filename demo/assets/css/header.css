@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    color:  var(--primary-text-color);
+}
+
+.nav-item.active {
+    font-weight: bold;
+    color: var(--secondary-text-color);
+}
