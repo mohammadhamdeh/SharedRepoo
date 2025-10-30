@@ -1,6 +1,9 @@
 :root {
   --bg-app: #e9eef7;
   --btn-border: #4a3a91;
+  --nav-bg: #2b195f;
+    --primary-text-color: #dd13ae;
+    --secondary-text-color: #81d506;
 }
 
 body {
