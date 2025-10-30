@@ -1,0 +1,10 @@
+:root {
+  --bg-app: #e9eef7;
+  --btn-border: #4a3a91;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg-app);
+}
+
