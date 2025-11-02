@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="Summarize.css">
 </head>
 <body class="sidebar-collapsed">
   <header class="topbar">
@@ -83,5 +84,40 @@
   <main class="content"></main>
 
   <script src="layout.js"></script>
+
+<main class="content">
+  <section class="note-section">
+    <div class="note-container">
+      
+      <!-- Left side -->
+      <div class="note note-left">
+        <div class="note-header">
+          <h2><img src="Vector (1).png" alt="Note Icon" /> New Note</h2>
+          <span class="expand">⤢</span>
+        </div>
+        <p>Enter or paste your text here, and press <strong>“Summarize”.</strong></p>
+        <textarea placeholder="Type your note here..."></textarea>
+        <div class="note-footer">
+          <div class="icons">
+            <img src="Aa.png" alt="Aa-icon">
+            <img src="List.png" alt="List Icon" />
+            <img src="Trash 2.png" alt="Trash Icon" />
+          </div>
+          <button class="summarize-btn">Summarize</button>
+        </div>
+      </div>
+
+      <!-- Right side -->
+      <div class="note note-right">
+        <div class="note-header">
+          <h2><img src="File text.png" alt="File Icon" /> Summarize</h2>
+        </div>
+        <p class="summary-placeholder">Your summary will appear here...</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+
 </body>
 </html>
