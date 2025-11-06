@@ -4,16 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Note AI</title>
-  <link rel="stylesheet" href="layout.css"/>
+  <link rel="stylesheet" href="../assets/css/layout.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="Summarize.css">
+  <link rel="stylesheet" href="../assets/css/Summarize.css">
 </head>
 <body class="sidebar-collapsed">
   <header class="topbar">
     <div class="brand">
-      <img src="./logo.png" alt="Note AI logo" class="logo"/>
+      <img src="../logo.png" alt="Note AI logo" class="logo"/>
       <span class="appname">Note AI</span>
     </div>
     <div class="user-actions">
@@ -43,25 +43,25 @@
     <ul class="menu-list" role="list">
       <li>
         <a class="menu-link active" href="#">
-          <img src="Home.png.png" alt="Home logo">
+          <img src="../Home.png.png" alt="Home logo">
           <span class="label">Home</span>
         </a>
       </li>
       <li>
         <a class="menu-link" href="#">
-          <img src="Archive.png" alt="Archive logo">
+          <img src="../Archive.png" alt="Archive logo">
           <span class="label">Archive</span>
         </a>
       </li>
       <li>
         <a class="menu-link" href="#">
-          <img src="Star.png" alt="Star logo">
+          <img src="../Star.png" alt="Star logo">
           <span class="label">Favourites</span>
         </a>
       </li>
       <li>
         <a class="menu-link" href="#">
-          <img src="Trash 2.png" alt="Trash logo">
+          <img src="../Trash%202.pngng" alt="Trash logo">
           <span class="label">Trash</span>
         </a>
       </li>
@@ -76,14 +76,14 @@
     </div>
 
     <a class="Log-out" href="#">
-      <img src="Log in.png" alt="Log out logo">
+      <img src="../Log%20in.pngng" alt="Log out logo">
       <span class="label">Log out</span>
     </a>
   </aside>
 
   <main class="content"></main>
 
-  <script src="layout.js"></script>
+  <script src="../assets/js/layout.js"></script>
 
 <main class="content">
   <section class="note-section">
@@ -92,16 +92,19 @@
       <!-- Left side -->
       <div class="note note-left">
         <div class="note-header">
-          <h2><img src="Vector (1).png" alt="Note Icon" /> New Note</h2>
-          <span class="expand">⤢</span>
+          <h2><img src="../Vector%20(1).pngng" alt="Note Icon" /> New Note</h2>
+          <div class="expand">
+            <img src="../Maximize%20vec.pngng" alt="To Maximize"></img>
+          </div>
         </div>
-        <p>Enter or paste your text here, and press <strong>“Summarize”.</strong></p>
-        <textarea placeholder="Type your note here..."></textarea>
+
+        <p><u>Enter or paste your text here, and press <strong>“Summarize”.</u></strong></p>
+
         <div class="note-footer">
           <div class="icons">
-            <img src="Aa.png" alt="Aa-icon">
-            <img src="List.png" alt="List Icon" />
-            <img src="Trash 2.png" alt="Trash Icon" />
+            <img src="../Aa.png" alt="Aa-icon">
+            <img src="../List.png" alt="List Icon" />
+            <img src="../Trash%202.pngng" alt="Trash Icon" />
           </div>
           <button class="summarize-btn">Summarize</button>
         </div>
@@ -110,15 +113,16 @@
       <!-- Right side -->
       <div class="note note-right">
         <div class="note-header">
-          <h2><img src="File text.png" alt="File Icon" /> Summarize</h2>
+          <h2><img src="../File%20text.pngng" alt="File Icon" /> Summarize</h2>
         </div>
-        <p class="summary-placeholder">Your summary will appear here...</p>
       </div>
     </div>
   </section>
+  <script src="../assets/js/PageThreePageFour.js"></script>
+  
+
 </main>
-<p>New comments</p>
-<p>Nasfasf</p>
+
 
 </body>
 </html>
